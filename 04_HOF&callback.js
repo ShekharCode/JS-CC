@@ -1,5 +1,10 @@
 //higher order functions and callback
+// A higher-order function is a function that takes other functions as arguments or returns a
+// function as its result. In JavaScript, functions are treated as first-class citizens,
+//  meaning they can be assigned to variables, passed as arguments, and returned from other
+//  functions, just like any other data type
 
+// add is called HOF and cb is called as callback
 function add(a, b, cb) {
   let result = a + b;
   cb(result);
